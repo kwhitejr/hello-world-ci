@@ -8,6 +8,8 @@
 service: hello-world-cd
 
 # exclude the code coverage files and circle ci files
+# these files are not necessary for the application
+# and thus should not be deployed
 package:
   exclude:
   - coverage/**
